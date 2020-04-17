@@ -1,0 +1,1137 @@
+*{
+	background-color: #dfd2c6;
+	color: #514f4c;
+	overflow-x: hidden;
+	font-family: Lato, "sans serif";
+	margin: 0;
+}
+
+body > a:visited{
+	color: darkblue;
+}
+
+body >  a{
+	cursor: pointer;
+}
+
+:root{
+	--mint: #0f97a7;
+	--corallo: #de3a6c;
+	--yellow: #fffd2e;
+	--green: #c5fa0c;
+	--azul:#57f0fa;
+}
+
+h1, h2, h3, h4{
+	font-family: Arapey, serif;
+	font-weight: 400;
+}
+
+/*body > div#sample{
+	width: 100%;
+	background-color: #514f4c;
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+body > div#sample > p{
+	color: #dfd2c6;
+	background-color: #514f4c;
+	text-transform: uppercase;
+}*/
+
+/* Top */
+
+body > #top{
+	width: 100%;
+	margin-top: 0.5em;
+}
+
+body > #top > img{
+	width: 14.5%;
+	margin-left: 0.5%;
+	float: left;
+}
+
+body > #top > div{
+	display: none;
+}
+
+body > #top > ul{
+	float:right;
+	width: 40%;
+	padding: 0;
+	margin-top: 1em;
+}
+
+body > #top > ul > li{
+	list-style-type: none;
+	float: left;
+	padding: 0 1%;
+}
+
+ul > li > a.link, ul > li > a.link2{
+	text-decoration: none;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	-webkit-transition: background-size .6s;
+	-moz-transition: background-size .6s;
+	-o-transition: background-size .6s;
+	transition: background-size .6s;
+	background-size: 0 100%;
+} 
+
+ul > li > a.link{
+	background-image: linear-gradient(transparent 0.6em, var(--mint) 0.6em, var(--mint) 1em);
+}
+
+footer ul > li > a.link2{
+	background-image: linear-gradient(transparent 0.6em, var(--corallo) 0.6em, var(--corallo) 1em);
+	background-color: #ff9415;
+}
+
+
+body > #top > ul > li > a:hover, footer ul > li > a.link2:hover{
+	background-size: 100% 100%;
+}
+
+/* Im Curtis Mayfield */
+
+#mayfield{
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 5em;	
+}
+
+#mayfield img{
+	float: left;
+	width: 25%;
+	border-top-left-radius: 40%;
+	border-bottom-right-radius: 40%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+	margin-top: 2em;
+
+}
+
+#mayfield > p > img{
+	display: none;
+}
+
+#mayfield h1{
+	float: left;
+	width: 36%;
+	margin: 0.5em 19.5%;
+	font-style: italic;
+	background-image: linear-gradient(transparent 0.6em, var(--azul) 0.6em, var(--azul) 1em);
+	background-color: #dfd2c6;
+	background-size: 100% 100%;
+}
+
+#mayfield p{
+	width: 70%;
+	padding: 0.5em 0 0.5em 5%;
+	float: left;
+}
+
+
+#cBig{
+	font-size: 3.4em;
+	font-style: italic;
+	font-family: Arapey, serif;
+}
+
+/* Move on Up */
+
+#text{
+	width: 100%;
+}
+
+#text > p > span{
+	font-style: italic;
+}
+
+#text > h2{
+	-webkit-text-stroke: 2px currentColor;
+	-webkit-text-fill-color: transparent;
+	font-size: 7em;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	background-color: transparent;
+	margin-left: 5%;
+	color: #514f4c;
+	width: 100%;
+}
+
+#text > img:last-of-type{
+	width: 35%;
+	float: left;
+	margin-right: 5%;
+}
+
+#text > img:first-of-type{
+	display: none;
+}
+
+#text > p{
+	float: left;
+	margin-left: 10%;
+	padding: 10em 5% 1em 0; 
+	display: block;
+	width: 45%;
+}
+
+#text > p > img{
+	display: none;
+}
+
+/* Articles */
+
+div#articles{
+	width: 80%;
+	margin: 2em 10% 1em;
+}
+
+div#articles > h1{
+	font-style: italic;
+	width: 21%;
+	background-image: linear-gradient(transparent 0.6em, var(--green) 0.6em, var(--green) 1em);
+	background-color: #dfd2c6;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+div#articles > div.left{
+	width: 30%;
+	float:left;
+}
+
+div#articles > div#central{
+	width: 34%;
+	float: left;
+	padding: 1em 3%;
+}
+
+div#articles > div.left > .lateral{
+	width: 100%;
+	padding: 1em 0;
+}
+
+div#articles > div#central > img, div#articles > div.left > div.lateral img{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+
+div#articles > div > .hr, div#articles > div.left > div.lateral > .hr{
+	float: left;
+	width: 10%;
+	border: 1px solid #514f4c;
+	margin: 0.7em 2%;
+}
+
+div#articles > div#central > h2, div#articles > div.left > div.lateral > h2{
+	float:left;
+	width: 69.5%;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+
+div#articles > div#central > p, div#articles > div.left > div.lateral > p{
+	width: 94%;
+	padding: 1em 3%;
+	text-align: center;
+}
+
+div#articles > div.left > div.lateral a, div#articles > div#central a{
+	display: block;
+	width: 34%;
+	margin: 1em 31% 0;
+	padding: 0.2em 2%;
+	border: 1px solid #514f4c;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* EP */
+
+div#album{
+	margin: 1em 0;
+	width: 100%;
+}
+
+div#album > h1{ 
+	width: 15%;
+	float: left;
+	-webkit-transform: rotate(-34deg);
+	transform: rotate(-34deg);
+	-ms-transform: rotate(-34deg);
+	-moz-transform: rotate(-34deg);
+	-o-transform: rotate(-34deg);
+	margin: 2em 2% 0 1%;
+	font-style: italic;
+	background-image: linear-gradient(transparent 0.6em, var(--yellow) 0.6em, var(--yellow) 1em);
+	background-color: #dfd2c6;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+div#album .ep{
+	width: 20.5%;
+	float: left;
+	height: auto;
+	margin-bottom: 1em;
+}
+
+div#album .ep > img{
+	width: 100%;
+}
+
+div#album .ep > p{
+	font-style: italic;
+	color: #8e8b88;
+}
+
+div#album > div.ep > a{
+	display: block;
+	width: 80%;
+	margin: 1em 8%;
+	padding: 0.2em 2%;
+	border: 1px solid #514f4c;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* base */
+.base{
+	width: 100%;
+	background-color: #c0b2a5;
+	padding: 2em 0;
+	margin: 1em 0 2em;
+}
+
+.base > span > a{
+	width: 84%;
+	background-color: #c0b2a5;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 1em 8%;
+}
+
+.base > span > a > span{
+	text-transform: none;
+	background-color: #c0b2a5;
+}
+
+.base > span{
+	width: 45%;
+	margin-left: 27.5%;
+	text-align: center; 
+	background-color: #c0b2a5;
+	border: 1px solid #514f4c;
+	display: block;
+}
+
+.base > span > a:hover, .base > span > a:hover > span{
+	background-image: linear-gradient(transparent 0.6em, var(--mint) 0.6em, var(--mint) 1em);
+}
+
+/* Footer */
+
+footer{
+	width: 100%;
+	margin: 0;
+	background-color: #2a2928;
+	height: auto;
+}
+
+footer > div > #ball{
+	text-align: center;
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	margin: 2.5em auto;
+	background-color: #ff9415;
+}
+
+footer >  a img{
+	width: 10%;
+	float:right;
+	background-color: #2a2928;
+	display: block;
+	margin-top: -6em;
+}
+
+
+footer > div > #ball > h3, footer > div > #ball > ul > li{
+	width: 100%;
+	margin-top: 2.25em;
+	background-color: #ff9415;
+}
+
+footer > div > #ball > ul, footer > div > #ball > ul > li{
+	padding-left: 0;
+	margin: 0;
+	background-color: #ff9415;
+}
+
+footer > div > #ball > ul > li{
+	list-style-type: none;
+	margin-top: 0.5em;
+}
+
+footer > div{
+	width: 100%;
+	background-color: #2a2928;
+
+}
+
+
+/**********************************************************/
+
+
+/* 900px -> 1024px */
+
+@media only screen and (min-width: 901px) and (max-width: 1024px){
+	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
+		background-image: none;
+		background-size: 0;
+	}
+
+	body > #top > img{
+		width: 40%;
+		margin-left: 30%;
+		margin-top: 1em;
+	}
+
+	body > #top{
+		margin-top: 0;
+	}
+
+	body > #top > div{
+		width: 100%;
+		background-color: #514f4c;
+		display: block;
+	}
+
+	body > #top > div > ul{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	body > #top > div > ul > li{
+		width:22.5%;
+		padding: 0;
+	}
+
+	body > #top > div > ul > li:nth-of-type(4){
+		width: 10%;
+	}
+
+	ul > li > a.link{
+		background-image: none;
+	}
+
+	body > #top > div > ul, body > #top > div > ul >li, body > #top > div > ul > li a{
+		background-color: #514f4c;
+		color: #dfd2c6;
+		font-size: 0.85em;
+		text-transform: uppercase;
+		padding: .5% 0;
+	}
+
+	body > #top > div > ul > li{
+		float:left;
+	}
+
+	body > #top > ul{
+		display: none;
+	}
+
+	/* Mayfield */
+
+	#mayfield{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0;
+	}
+
+	#mayfield h1{
+		width: 36%;
+		float:right;
+		margin-right: 0;
+	}
+
+	#mayfield p{
+		width: 100%;
+		padding: 0;
+	}
+
+	#mayfield > img{
+		display: none;
+	}
+
+	#mayfield > p > img{
+		display: block;
+		float: left;
+		width: 35%;
+		margin: .5em 5% 1em;
+	}
+
+	/* Move on Up */
+
+	#text > h2{
+		font-size: 6.3em;
+		margin-left: 0;
+	}
+
+	#text > img{
+		display: none;
+	}
+
+	#text > p > img{
+		width: 35%;
+		margin: -10em 0 .5em 5%;
+		float: right;
+		display: block;
+	}
+
+	#text{
+		width: 90%;
+		margin: 0 5%;
+		padding: 0;
+	}
+
+	#text > p{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		padding-top: 10em;
+	}
+
+	/* Articles */
+
+	div#articles{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	/* EP */
+
+	div#album > h1{
+		width: 25%;
+		float: none;
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		margin: 0 0 1em 2%;
+	}
+
+	div#album > div.ep{
+		width: 25%;
+		float: left;
+	}
+
+	div#album > div.ep > h2{
+		font-size: 1.2em;
+		padding-left: 2%;
+	}
+
+	div#album > div.ep > p{
+		font-size: .93em;
+		padding-left: 2%;
+	}
+
+	/* Span */
+
+	.base > span{
+		width: 50%;
+		margin-left: 24.9%;
+	}
+
+	/* Footer */
+
+	footer > a img{
+		width: 16%;
+	}
+}
+
+/* 769px -> 900px */
+
+@media only screen and (min-width: 769px) and (max-width: 900px){
+	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
+		background-image: none;
+		background-size: 0;
+	}
+
+	body > #top > img{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 1em;
+	}
+
+	body > #top{
+		margin-top: 0;
+	}
+
+	body > #top > div{
+		width: 100%;
+		background-color: #514f4c;
+		display: block;
+	}
+
+	body > #top > div > ul{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	body > #top > div > ul > li{
+		width:22.5%;
+		padding: 0;
+	}
+
+	body > #top > div > ul > li:nth-of-type(4){
+		width: 10%;
+	}
+
+	ul > li > a.link{
+		background-image: none;
+	}
+
+	body > #top > div > ul, body > #top > div > ul >li, body > #top > div > ul > li a{
+		background-color: #514f4c;
+		color: #dfd2c6;
+		font-size: 0.85em;
+		text-transform: uppercase;
+		padding: .5% 0;
+	}
+
+	body > #top > div > ul > li{
+		float:left;
+	}
+
+	body > #top > ul{
+		display: none;
+	}
+
+	/* Mayfield */
+
+	#mayfield{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#mayfield h1{
+		width: 50%;
+		margin: 0 25% 1em;
+	}
+
+	#mayfield > p{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	#mayfield > img{
+		display: none;
+	}
+
+	#mayfield > p > img{
+		display: block;
+		float: left;
+		width: 45%;
+		margin: 0 2%;
+	}
+
+	/*  Move on Up */
+	#text > h2{
+		font-size: 5em;
+	}
+
+	#text > img{
+		display: none;
+	}
+
+	#text > p{
+		width: 90%;
+		margin: 0 5%;
+		padding: 7em 0 0;
+	}
+
+	#text > p > img{
+		display: block;
+		width: 45%;
+		float: right;
+		margin: -7em 0 .77em 2%;
+	}
+
+	/* Articles */
+
+	div#articles{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div#articles > div#central > h2, div#articles > div.left > div.lateral > h2{
+		width: 70.5%;
+	}
+
+	div#articles > h1{
+		width: 27%;
+	}
+
+	div#articles > div#central{
+		padding: 0;
+	}
+
+	div#articles > div.left, div#articles > div#central{
+		float: none;
+		width: 100%;
+		margin: 1em 0;
+	}
+
+	/* EP */
+
+	div#album > h1{
+		width: 25%;
+		float: none;
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		margin: 0 0 1em 2%;
+	}
+
+	div#album > div.ep{
+		width: 25%;
+		float: left;
+	}
+
+	div#album > div.ep > h2{
+		font-size: 1.2em;
+		padding-left: 2%;
+	}
+
+	div#album > div.ep > p{
+		font-size: .93em;
+		padding-left: 2%;
+	}
+
+	/* Span */
+
+	.base > span{
+		width: 55%;
+		margin-left: 22.5%
+	}
+
+	.base > span > a{
+		width: 90%;
+		margin: 1em 5%;
+	}
+
+	footer > a img{
+		width: 19%;
+		margin-top: -7em;
+	}
+}
+
+/* 502px -> 768px */
+
+@media only screen and (min-width: 502px) and (max-width: 768px){
+	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
+		background-image: none;
+		background-size: 0;
+	}
+
+	/* Top */
+
+	body > #top > img{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 1em;
+	}
+
+	body > #top{
+		margin-top: 0;
+	}
+
+	body > #top > div{
+		width: 100%;
+		background-color: #514f4c;
+		display: block;
+	}
+
+	body > #top > div > ul{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	body > #top > div > ul > li{
+		width:22.5%;
+		padding: 0;
+	}
+
+	body > #top > div > ul > li:nth-of-type(4){
+		width: 10%;
+	}
+
+	ul > li > a.link{
+		background-image: none;
+	}
+
+	body > #top > div > ul, body > #top > div > ul >li, body > #top > div > ul > li a{
+		background-color: #514f4c;
+		color: #dfd2c6;
+		font-size: 0.85em;
+		text-transform: uppercase;
+		padding: .5% 0;
+	}
+
+	body > #top > div > ul > li{
+		float:left;
+	}
+
+	body > #top > ul{
+		display: none;
+	}
+
+	/* Im Curtis */
+
+	#mayfield{
+		margin-top: 0;
+	}
+
+	#mayfield img{
+		width: 80%;
+		float:none;
+		margin-top: .7em;
+	}
+
+	#mayfield h1{
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#mayfield p{
+		float:none;
+		padding: 0.5em 2%;
+		width: 96%;
+	}
+
+	/* Move on Up */
+
+	#text > h2{
+		font-size: 3.7em;
+		font-weight: 600;
+	}
+
+	#text > p{
+		padding-top: 6em;
+		width: 80%;
+		margin: 0 10%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#text > p > img{
+		float: right;
+		padding: 0.5em 0 0.5em 2%;
+		width: 50%;
+		margin-top: -6em;
+	}
+
+	#text > p > img{
+		display: block;
+	}
+
+	#text > img{
+		display: none;
+	}
+
+	/* Album */
+
+	div#album > div.ep{
+		height: auto;
+		width: 80%;
+		margin: 0.5em 10%;
+	}
+
+	div#album > div.ep > a{
+		width: 95.5%;
+		margin: 1em 0;
+	}
+
+	/* Span */
+
+	.base > span{
+		width: 90%;
+		margin-left: 4.5%;
+	}
+
+	/* Last Articles */
+
+	div#articles > h1{
+		width: 46%;
+		margin-right: 54%;
+	}
+
+	div#articles > div.left, div#articles > div#central{
+		width: 100%;
+		float:none;
+	}
+
+	div#articles > div.left > div.lateral a, div#articles > div#central a{
+		width: 60%;
+		padding:0.2em 2%;
+		margin-left: 18%;
+	}
+
+	div#articles > div#central{
+		padding: 1em 0;
+	}
+
+	/* Ep */
+
+	div#album > h1{
+		float: none;
+		width: 36%;
+		-webkit-transform: rotate(-7deg);
+		transform: rotate(-7deg);
+		-ms-transform: rotate(-7deg);
+		-moz-transform: rotate(-7deg);
+		-o-transform: rotate(-7deg);
+		margin: 1em 1% 1em 6%;
+	}
+
+	/* Footer */
+
+	footer > a img{
+		width: 23%;
+		margin-top: -7.5em;
+	}
+}
+
+/* 320px -> 501px */
+
+@media only screen and (max-width: 501px){
+
+	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
+		background-image: none;
+		background-size: 0;
+	}
+
+	body > #top > img{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 1em;
+	}
+
+	body > #top{
+		margin-top: 0;
+	}
+
+	body > #top > div{
+		width: 100%;
+		background-color: #514f4c;
+		display: block;
+	}
+
+	body > #top > div > ul{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	body > #top > div > ul > li{
+		width:22.5%;
+		padding: 0;
+	}
+
+	body > #top > div > ul > li:nth-of-type(4){
+		width: 10%;
+	}
+
+	ul > li > a.link{
+		background-image: none;
+	}
+
+	body > #top > div > ul, body > #top > div > ul >li, body > #top > div > ul > li a{
+		background-color: #514f4c;
+		color: #dfd2c6;
+		font-size: 0.85em;
+		text-transform: uppercase;
+		padding: .5% 0;
+	}
+
+	body > #top > div > ul > li{
+		float:left;
+	}
+
+	body > #top > ul{
+		display: none;
+	}
+
+	/* Im Curtis Mayfield */
+	#mayfield h1{
+		float: none;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	#mayfield p{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+
+	#mayfield img{
+		width: 50%;
+		margin: 0 25% 1em;
+		float: none;
+	}
+
+	#mayfield{
+		margin-bottom: 3em;
+	}
+
+	/* Move on Up */
+
+	#text > h2{
+		font-size: 3.5em;
+		font-weight: 600;
+		margin-left: 5%;
+	}
+
+	#text > p{
+		width: 80%;
+		margin: 0 10%;
+		float: none;
+		padding: 1em 0;
+	}
+
+	#text > img:last-of-type{
+		display: none;
+	}
+
+	#text > img:first-of-type{
+		width: 50%;
+		display: block;
+		margin-left: 40%;
+	}
+
+	#text > p > img{
+		display: none;
+	}
+
+	/* Articles */
+	div#articles{
+		margin-bottom: 0;
+	}
+
+	div#articles > h1{
+		width: 62%;
+		margin-right: 38%;
+	}
+
+	div#articles > div.left, div#articles > div#central{
+		width: 100%;
+		float: none;
+	}
+
+	div#articles > div#central > h2, div#articles > div.left > div.lateral > h2{
+		width: 69.5%;
+	}
+
+	div#articles > div.left > div.lateral a, div#articles > div#central a, div#articles > div#central{
+		margin-left: 0;
+		margin-right: 0;
+		padding-right: 0;
+		padding-left: 0;
+		width: 99%;
+	}
+
+	/* Ep */
+
+	.base > span{
+		width: 88%;
+		margin-left: 6%;
+	}
+
+	div#album > h1{
+		float: none;
+		width: 58%;
+		-webkit-transform: rotate(-7deg);
+		transform: rotate(-7deg);
+		-ms-transform: rotate(-7deg);
+		-moz-transform: rotate(-7deg);
+		-o-transform: rotate(-7deg);
+		margin: 2em 1% 1em 6%;
+	}
+
+	div#album .ep{
+		float:none;
+		width: 90%;
+		margin: 1em 5%;
+		height: auto;
+	}
+
+	div#album .ep h2{
+		margin-top: .1em;
+	}
+
+	div#album > div.ep > a{
+		margin-right: 0;
+		margin-left: 0;
+		padding-right: 0;
+		padding-left: 0;
+		width: 99%;
+	}
+
+	.base > span > a:hover, .base > span > a:hover > span{
+		background-image: none;
+	}
+
+	div#album{
+		margin-top: 0;
+	}
+
+	/* Span */
+
+	.base > span{
+		width: 92%;
+		margin-left: 3.8%;
+	}
+
+	.base > span > a{
+		width: 96%;
+		margin: 1em 2%;
+	}
+
+	/* Footer */
+
+	footer > a img{
+		margin-top: -5em;
+		width: 20%;
+	}
+	
+}
+

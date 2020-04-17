@@ -6,3 +6,5 @@ Curtis is the main character of the page, he was a musician from Chicago.
 
 It is a responsive page; there are four different breakpoints.
 I didn't use JS.
+
+It took me three afternoons to create it.

@@ -6,6 +6,11 @@
 	margin: 0;
 }
 
+h1, h2, h3, h4{
+	font-family: Arapey, serif;
+	font-weight: 400;
+}
+
 body > a:visited{
 	color: darkblue;
 }
@@ -14,18 +19,13 @@ body >  a{
 	cursor: pointer;
 }
 
-:root{
+/*:root{
 	--mint: #0f97a7;
 	--corallo: #de3a6c;
 	--yellow: #fffd2e;
 	--green: #c5fa0c;
 	--azul:#57f0fa;
-}
-
-h1, h2, h3, h4{
-	font-family: Arapey, serif;
-	font-weight: 400;
-}
+}*/
 
 /*body > div#sample{
 	width: 100%;
@@ -82,11 +82,11 @@ ul > li > a.link, ul > li > a.link2{
 } 
 
 ul > li > a.link{
-	background-image: linear-gradient(transparent 0.6em, var(--mint) 0.6em, var(--mint) 1em);
+	background-image: linear-gradient(transparent 0.6em, #0f97a7 0.6em, #0f97a7 1em);
 }
 
 footer ul > li > a.link2{
-	background-image: linear-gradient(transparent 0.6em, var(--corallo) 0.6em, var(--corallo) 1em);
+	background-image: linear-gradient(transparent 0.6em, #de3a6c 0.6em, #de3a6c 1em);
 	background-color: #ff9415;
 }
 
@@ -127,7 +127,7 @@ body > #top > ul > li > a:hover, footer ul > li > a.link2:hover{
 	width: 36%;
 	margin: 0.5em 19.5%;
 	font-style: italic;
-	background-image: linear-gradient(transparent 0.6em, var(--azul) 0.6em, var(--azul) 1em);
+	background-image: linear-gradient(transparent 0.6em, #57f0fa 0.6em, #57f0fa 1em);
 	background-color: #dfd2c6;
 	background-size: 100% 100%;
 }
@@ -200,7 +200,7 @@ div#articles{
 div#articles > h1{
 	font-style: italic;
 	width: 21%;
-	background-image: linear-gradient(transparent 0.6em, var(--green) 0.6em, var(--green) 1em);
+	background-image: linear-gradient(transparent 0.6em, #c5fa0c 0.6em, #c5fa0c 1em);
 	background-color: #dfd2c6;
 	background-size: 100% 100%;
 	text-align: center;
@@ -276,7 +276,7 @@ div#album > h1{
 	-o-transform: rotate(-34deg);
 	margin: 2em 2% 0 1%;
 	font-style: italic;
-	background-image: linear-gradient(transparent 0.6em, var(--yellow) 0.6em, var(--yellow) 1em);
+	background-image: linear-gradient(transparent 0.6em, #fffd2e 0.6em, #fffd2e 1em);
 	background-color: #dfd2c6;
 	background-size: 100% 100%;
 	text-align: center;
@@ -341,7 +341,7 @@ div#album > div.ep > a{
 }
 
 .base > span > a:hover, .base > span > a:hover > span{
-	background-image: linear-gradient(transparent 0.6em, var(--mint) 0.6em, var(--mint) 1em);
+	background-image: linear-gradient(transparent 0.6em, #0f97a7 0.6em, #0f97a7 1em);
 }
 
 /* Footer */
@@ -401,6 +401,21 @@ footer > div{
 /* 900px -> 1024px */
 
 @media only screen and (min-width: 901px) and (max-width: 1024px){
+
+	body{
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	h1, h2, h3, h4{
+		font-family: Arapey, serif;
+		font-weight: 400;
+	}
+
+	body > a:visited{
+		color: darkblue;
+	}
+
 	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
 		background-image: none;
 		background-size: 0;
@@ -536,7 +551,7 @@ footer > div{
 		-ms-transform: rotate(-10deg);
 		-moz-transform: rotate(-10deg);
 		-o-transform: rotate(-10deg);
-		margin: 0 0 1em 2%;
+		margin: 1.5em 0 1em 2%;
 	}
 
 	div#album > div.ep{
@@ -571,6 +586,21 @@ footer > div{
 /* 769px -> 900px */
 
 @media only screen and (min-width: 769px) and (max-width: 900px){
+
+	body{
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	h1, h2, h3, h4{
+		font-family: Arapey, serif;
+		font-weight: 400;
+	}
+
+	body > a:visited{
+		color: darkblue;
+	}
+
 	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
 		background-image: none;
 		background-size: 0;
@@ -714,7 +744,7 @@ footer > div{
 		-ms-transform: rotate(-10deg);
 		-moz-transform: rotate(-10deg);
 		-o-transform: rotate(-10deg);
-		margin: 0 0 1em 2%;
+		margin: 1em 0 1em 2%;
 	}
 
 	div#album > div.ep{
@@ -753,6 +783,21 @@ footer > div{
 /* 502px -> 768px */
 
 @media only screen and (min-width: 502px) and (max-width: 768px){
+
+	body{
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	h1, h2, h3, h4{
+		font-family: Arapey, serif;
+		font-weight: 400;
+	}
+
+	body > a:visited{
+		color: darkblue;
+	}
+
 	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
 		background-image: none;
 		background-size: 0;
@@ -918,7 +963,7 @@ footer > div{
 		-ms-transform: rotate(-7deg);
 		-moz-transform: rotate(-7deg);
 		-o-transform: rotate(-7deg);
-		margin: 1em 1% 1em 6%;
+		margin: 1.5em 1% 1em 6%;
 	}
 
 	/* Footer */
@@ -932,6 +977,20 @@ footer > div{
 /* 320px -> 501px */
 
 @media only screen and (max-width: 501px){
+
+	body{
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	h1, h2, h3, h4{
+		font-family: Arapey, serif;
+		font-weight: 400;
+	}
+
+	body > a:visited{
+		color: darkblue;
+	}
 
 	.base > span > a:hover, .base > span > a:hover > span, ul > li > a.link:hover, footer ul > li > a.link2:hover, body > #top > ul > li > a:hover{
 		background-image: none;
